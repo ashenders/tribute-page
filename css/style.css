@@ -1,0 +1,26 @@
+.jumbotron,
+.card {
+  margin-top: 3rem;
+}
+
+.jumbotron {
+  background-color: #19724d;
+  box-shadow: 2px 2px 5px #000;
+}
+
+hr {
+  height: 4px;
+  color: #d65555;
+  background: #d65555;
+  font-size: 0;
+  border: 0;
+}
+
+h4 > a, h4 > a:visited {
+  color: #FFF;
+}
+
+a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
