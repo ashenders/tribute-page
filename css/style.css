@@ -1,26 +1,60 @@
-.jumbotron,
-.card {
-  margin-top: 3rem;
+/* :root {
+  --main-color: #006653;
+  --accent-color: #FF8351;
+} */
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.jumbotron {
-  background-color: #19724d;
-  box-shadow: 2px 2px 5px #000;
+main {
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #EEE;
+  border-radius: .25rem;
 }
 
-hr {
-  height: 4px;
-  color: #d65555;
-  background: #d65555;
-  font-size: 0;
-  border: 0;
+h1,
+h2,
+h3 {
+  text-align: center;
 }
 
-h4 > a, h4 > a:visited {
-  color: #FFF;
+#img-div {
+  background-color: #FFF;
+  padding: .25rem;
 }
 
-a:hover {
-  color: #FFF;
-  text-decoration: none;
+img {
+  max-width: 60%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+#img-caption {
+  margin: .5rem 0;
+  text-align: center;
+}
+
+ul {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+li {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+blockquote {
+  font-style: italic;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+cite {
+  display: block;
+  text-align: center;
 }
