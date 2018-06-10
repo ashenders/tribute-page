@@ -5,84 +5,90 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Custom CSS -->
+  <!-- Custom CSS and Font -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <title>Barbara McClintock | Tribute Page</title>
 </head>
 
 <body>
 
-  <main id="main">
+  <main id="main" class="card">
 
-    <h1 id="title">Barbara McClintock</h1>
-    <p>Pioneer of genetics research and Nobel laureate</p>
+    <h1 id="title" class="card__title">Barbara McClintock</h1>
+    <p class="card__description">Pioneer geneticist and Nobel laureate</p>
 
-    <div id="img-div">
-      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg/1280px-Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg"
+    <div id="img-div" class="card__img-container">
+      <img id="image" class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg/1280px-Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg"
         alt="Image of Barbara McClintock working at a bench">
-      <div id="img-caption">Barbara working in her laboratory.</div>
+      <div id="img-caption" class="card__img-caption">Barbara working in her laboratory.</div>
     </div>
+    <hr class="card__hr">
+    <section id="tribute-info" class="card__info-section">
 
-    <section id="tribute-info">
-
-      <h2>Timeline of Barbara's life:</h2>
-      <ul class="list-group" id="tribute-info">
-        <li>
+      <h2 class="card__heading">Timeline of Barbara's life:</h2>
+      <ul class="list-group card__list" id="tribute-info">
+        <li class="card__list-item">
           <strong>1902</strong> - Born in Hartford, Connecticut.</li>
-        <li>
+        <li class="card__list-item">
           <strong>1919</strong> - Graduated high school and enrolled in Cornell University's College of Agriculture.</li>
-        <li>
+        <li class="card__list-item">
           <strong>1927</strong> - Graduated with a Ph.D. in botany.</li>
-        <li>
+        <li class="card__list-item">
           <strong>1929</strong> - Published a paper in
           <em>Genetics</em> on the charaterization of triploid maize chromosomes, which sparked further scientific interest in
           maize cytogenetics.</i>
         </li>
-        <li>
+        <li class="card__list-item">
           <strong>1930</strong> - Was the first person to describe the cross-like structure of homologous chromosomes during meiosis.
         </li>
-        <li>
+        <li class="card__list-item">
           <strong>1930</strong> - Began working at Cold Spring Harbor Laboratory.
         </li>
-        <li>
+        <li class="card__list-item">
           <strong>1944</strong> - Elected a member of the National Academy of Sciences.
         </li>
-        <li>
+        <li class="card__list-item">
           <strong>1944</strong> - Became the first female president of the Genetics Society of America.
         </li>
-        <li>
+        <li class="card__list-item">
           <strong>1948</strong> - Discovered the effects of the transposition of genetic loci
           <em>Dissociator (Ds)</em> and
           <em>Activator (Ac)</em>.
         </li>
-        <li>
+        <li class="card__list-item">
           <strong>1957</strong> - Started researchubg the evolutuon of indigenous strains of maize in Central America and South America.
         </li>
-        <li>
+        <li class="card__list-item">
           <strong>1967</strong> - Officially retired, but continued working with graduate students and colleagues at the Cold Spring
           Harbor Laboratory.
         </li>
-        <li>
+        <li class="card__list-item">
           <strong>1983</strong> - Awarded the Nobel Prize in Physiology or Medicine for &quot;her discovery of mobile genetic elements&quot;.
         </li>
-        <li>
+        <li class="card__list-item">
           <strong>1992</strong> - Died at the age of 90.
         </li>
-        <li>
+        <li class="card__list-item">
           <strong>2005</strong> - Honored by the US Postal Service as part of an "American Scientists" commerative postage stamp
           series.
         </li>
       </ul>
 
-      <blockquote>
-        &quot;I was just so interested in what I was doing I could hardly wait to get up in the morning and get at it. One of my
-        friends, a geneticist, said I was a child, because only children can't wait to get up in the morning to get at what
-        they want to do.&quot;
-      </blockquote>
-      <cite>- Barbara McClintock</cite>
+      <div class="card__quote">
+        <blockquote class="card__blockquote">
+          &quot;I was just so interested in what I was doing I could hardly wait to get up in the morning and get at it. One of my
+          friends, a geneticist, said I was a child, because only children can't wait to get up in the morning to get at
+          what they want to do.&quot;
+        </blockquote>
+        <cite class="card__cite">- Barbara McClintock</cite>
+      </div>
 
-      <h3>If you have time, you should read more about this incredible human being on her
-        <a href="https://en.wikipedia.org/wiki/Barbara_McClintock" target="_blank" id="tribute-link" alt="Barbara McClintock's Wikipedia entry">Wikipedia entry</a>.</h3>
+      <hr class="card__hr">
+
+      <h3 class="card__sub-heading">If you have time, you should read more about this incredible human being on her
+        <a href="https://en.wikipedia.org/wiki/Barbara_McClintock" target="_blank" id="tribute-link" class="card__link" alt="Barbara McClintock's Wikipedia entry">Wikipedia entry</a>.</h3>
     </section>
 
   </main>
